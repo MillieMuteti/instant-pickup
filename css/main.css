@@ -1,6 +1,9 @@
+body{
+    font-family: Montserrat;
+}
 
 .navbar{
-    position: relative;
+    position: absolute;
     width: 1500px;
     height: 127px;
     left: 0px;
@@ -90,21 +93,8 @@
     line-height: 30px;
     margin: 0px 40px;
 } 
-.demoPage{
-    position: relative;
-    height: 896px;
-    width: 1500px;
-    border-radius: 0px;
-    background: #ffffff;
 
-}
-.mailSentBro{
-    position: absolute;
-    width: 628px;
-    height: 628px;
-    left: 94px;
-    top: 198px;
-}
+
 .intro{
 position: absolute;  
 height: 153px;
@@ -769,4 +759,145 @@ p.paragraph-4{
     border-radius: 0px;
     position: absolute;
     border: 2px solid rgba(0, 0, 0, 0.3);
+}
+/* Modal */
+.demoPage{
+    position: relative;
+    height: 3000px;
+    width: 1500px;
+    border-radius: 0px;
+    background: #ffffff;
+
+}
+.mailSentBro{
+    position: absolute;
+    width: 628px;
+    height: 628px;
+    left: 94px;
+    top: 150px;
+}
+.getDemoForm{
+    height: 800px;
+    width: 800px;
+    left: 722px;
+    top: 195px;
+    border-radius: 64px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+}
+.getDemoForm h1{
+    height: 34px;
+    width: 254px;
+    left: 33px;
+    top: 30px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(61, 82, 33, 1);
+    position: absolute;
+}
+label{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #3D5221;
+}
+.firstName{
+    height: 21px;
+    width: 70px;
+    left: 14px;
+    top: 64px;
+    position: absolute;
+}
+.firstNameForm{
+    height: 58px;
+    width: 18px;
+    left: 5px;
+    top: 86px;
+    border-radius: 32px;
+    position: absolute;
+}
+.lastName{
+    height: 21px;
+    width: 70px;
+    top: 64px;
+    position: absolute;
+    left: 430px;
+}
+.lastNameForm{
+    height: 58px;
+    width: 20px;
+    left: 0px;
+    border-radius: 32px;
+    top: 86px;
+    position: absolute;
+}
+.email{
+    top: 180px;
+    left: 5px;
+    height: 21px;
+    width: 70px;
+    position: absolute;
+}
+.emailForm{
+    top:154px;
+    left: 0px;
+    border-radius: 32px;
+    position: absolute;
+    height: 58px;
+    width: 90px;
+}
+.phoneNo{
+    height: 21px;
+    width: 70px;
+    top: 290px;
+    position: absolute;
+    left: 430px;  
+}
+.phoneNoForm{
+    height: 58px;
+    width: 20px;
+    left: 0px;
+    border-radius: 32px;
+    top: 190px;
+    position: absolute;  
+}
+.companyName{
+    height: 21px;
+    width: 150px;
+    top: 290px;
+    position: absolute;
+    left: 14px;
+}
+.companyNameForm{
+    height: 58px;
+    width: 18px;
+    left: 5px;
+    top: 190px;
+    border-radius: 32px;
+    position: absolute;
+}
+.companyType{
+    height: 21px;
+    width: 150px;
+    top: 365px;
+    position: absolute;
+    left: 5px;
+}
+.companyTypeForm{
+    height: 58px;
+    width: 20px;
+    left: 0px;
+    border-radius: 32px;
+    top: 210px;
+    position: absolute;   
 }
